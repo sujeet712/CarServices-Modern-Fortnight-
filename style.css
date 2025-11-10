@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    margin: 0px;
+}
+.nav{
+    background-color: #1b262c;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.cars{
+    margin-left: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+@media screen and (max-width:768px){
+
+.home{
+   display: none;
+  
+}
+
+}
+@media screen and (min-width:768px){
+    .fa{
+    display: none;
+}
+.cars{
+    margin-left: 15px;
+   
+}
+.home{
+   display: flex;
+   justify-content: flex-end;
+   margin-left: 350px;
+}
+.a1{
+    margin: 10px;
+    color: #ffffff;
+}
+.a10{
+    text-decoration: underline;
+    margin: 10px;
+    color: #ffffff;
+}
+}
+
+@media screen and (max-width:768px){
+
+.home{
+   display: none;
+  
+}
+
+}
+.fa{
+    margin-top: 20px;
+       color: #ffffff;
+       font-size:  30px;
+}
+
+.card2{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    background-size: cover;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+}
+.h2{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Roboto";
+    margin-left: 80px;
+}
+.h3{
+    color: #1b262c;
+    font-size: 30px;
+    font-family: "Roboto";
+    margin-left: 50px;
+}
+.p2{
+    color: grey;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-left: 80px;
+}
+.p3{
+    color: grey;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-left: 50px;
+}
+.ser{
+    text-align: center;
+}
+hr{
+    font-size: 30px;
+}
+.img3{
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card3{
+    background-color: #f2ccff;
+}
+
+@media screen and (min-width:768px){
+
+.card3{
+   display: flex;
+  
+}
+
+}
+.card4{
+    text-align: center;
+}
+.h4{
+    font-size: 20px;
+    color: #1b262c;
+}
